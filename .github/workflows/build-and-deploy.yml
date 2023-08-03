@@ -1,8 +1,5 @@
 name: Build and push the image
-on:
-  push:
-    branches:
-      - 'main'
+on: workflow_dispatch
 env:
   IMAGE_REPOSITORY_NAME: brezyweather
   IMAGE_TAG: 1.0.0
